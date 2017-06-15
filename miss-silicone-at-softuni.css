@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=Oleo+Script+Swash+Caps');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 100px;
+    background-color: #f03371;
+}
+
+header h1 {
+    display: inline-block;
+    margin-left: 30px;
+    font-family: 'Oleo Script Swash Caps', sans-serif;
+    color: #262626;
+    font-style: italic;
+}
+
+nav {
+    width: 300px;
+    display: inline-block;
+    margin-left: 100px;
+}
+
+nav ul {
+    width: 400px;
+}
+
+nav ul li {
+    display: inline-block;
+    text-align: center;
+    border: 1px dashed #ff4c96;
+    padding: 15px;
+    width: 95px;
+    border-radius: 15px;
+    background: #ff5e9e; /* Old browsers */
+    background: -moz-linear-gradient(top, #ff5e9e 0%, #ff6ba8 47%, #ff4f9b 47%, #ff5e9e 48%, #ffa8cc 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #ff5e9e 0%,#ff6ba8 47%,#ff4f9b 47%,#ff5e9e 48%,#ffa8cc 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #ff5e9e 0%,#ff6ba8 47%,#ff4f9b 47%,#ff5e9e 48%,#ffa8cc 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff5e9e', endColorstr='#ffa8cc',GradientType=0 );
+
+}
+
+nav ul li:hover {
+    -webkit-box-shadow: 3px 3px 21px -5px rgba(0,0,0,0.7);
+    -moz-box-shadow: 3px 3px 21px -5px rgba(0,0,0,0.7);
+    box-shadow: 3px 3px 21px -5px rgba(0,0,0,0.7);
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-family: 'Josefin sans', sans;
+    font-size: 18px;
+    color: #292929;
+    text-shadow: 1px 2px 3px #353535;
+}
+
